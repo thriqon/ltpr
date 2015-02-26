@@ -1,0 +1,28 @@
+{
+  "name": "ltpr",
+  "version": "0.1.0",
+  "description": "LiTerate PRogramming made easy",
+  "main": "index.js",
+  "scripts": {
+    "test": "node_modules/.bin/mocha"
+  },
+  "keywords": [
+    "literate",
+    "programming",
+    "markdown"
+  ],
+  "author": {
+    "name": "Jonas Weber",
+    "email": "mail@jonasw.de",
+    "url": "http://jonasw.de/"
+  },
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^2.1.0",
+    "mocha": "^2.1.0"
+  },
+  "dependencies": {
+    "marked": "^0.3.3",
+    "yargs": "^3.3.1"
+  }
+}
