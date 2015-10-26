@@ -1,0 +1,7 @@
+script:
+- docker run -t --rm  -v $(pwd):/source thriqon/linuxbrew-alpine install hello
+install:
+- docker pull thriqon/linuxbrew-alpine
+sudo: required
+services:
+- docker
