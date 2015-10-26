@@ -1,0 +1,6 @@
+
+branches:
+  except: [master]
+
+script:
+  - echo "Hello, World!"
